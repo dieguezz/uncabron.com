@@ -1,0 +1,33 @@
+{
+  "name": "uncabron",
+  "version": "1.0.0",
+  "description": "My funkadelic Nuxt.js project",
+  "author": "Diego Segura",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+    "build": "nuxt build",
+    "start": "cross-env NODE_ENV=production node server/index.js",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.0.0",
+    "cross-env": "^5.2.0",
+    "express": "^4.16.3",
+    "gsap": "^2.0.2",
+    "nuxt": "^2.0.0",
+    "string-similarity": "^2.0.0"
+  },
+  "devDependencies": {
+    "coffee-loader": "^0.9.0",
+    "coffeescript": "^2.3.2",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-plugin-prettier": "2.6.2",
+    "node-sass": "^4.9.4",
+    "nodemon": "^1.11.0",
+    "prettier": "1.14.3",
+    "pug": "^2.0.3",
+    "pug-plain-loader": "^1.0.0",
+    "sass-loader": "^7.1.0"
+  }
+}
